@@ -10,19 +10,27 @@ We highly recommend downloading **Bedrock Skin Packs** from Modrinth. It contain
 
 ## How to Install a Downloaded Skin Pack
 
-**Step 1:** Download the Skin Pack file (usually a `.zip` file).
+It depends on what type of file you downloaded. 
 
-**Step 2:** Find your Minecraft folder:
-- **Windows:** Press `Win + R`, type `%appdata%\.minecraft`, press Enter.
-- **macOS:** Open Finder → Go → Go to Folder → `~/Library/Application Support/minecraft`
-- **Linux:** Open `~/.minecraft`
-- **Prism Launcher / MultiMC:** Right-click your instance → Click **Folder** (or **.minecraft**).
+💡 **How to know which one you have?**
+Open the `.zip` file you just downloaded and look inside:
+- If you see a file named `pack.mcmeta`, it is a **Resource Pack** (Type A).
+- If you see `skins.json` or just images, it is a **Standard Skin Pack** (Type B).
 
-**Step 3:** Open the `skin_packs` folder inside your `.minecraft` folder.
-- If the folder doesn't exist yet, **create it yourself!** Just make a new folder and name it exactly `skin_packs`.
+### Type A: Resource Packs (Like the "Bedrock Skin Packs" from Modrinth)
+Some massive skin packs are packaged as Minecraft Resource Packs. 
+1. Download the `.zip` file.
+2. Put the `.zip` file inside your `.minecraft/resourcepacks/` folder.
+3. Open Minecraft, go to **Options -> Resource Packs**, and **Enable** the pack.
+4. The skins will now magically appear in the Better Skin Download Packs tab!
 
-**Step 4:** Extract the `.zip` file into the `skin_packs` folder. 
-- Make sure the result looks like this:
+### Type B: Standard Skin Packs (Community Made)
+If a friend sent you a skin pack, or you downloaded a standard one, it goes into the mod's dedicated folder.
+1. Download the `.zip` file and extract it.
+2. Find your Minecraft folder and open the `skin_packs` folder (`.minecraft/skin_packs/`).
+   *(If the folder doesn't exist yet, create it!)*
+3. Place the extracted folder inside `skin_packs`. 
+   Make sure the result looks like this:
 ```
 .minecraft/skin_packs/SomeSkinPack/
 ├── skins.json
