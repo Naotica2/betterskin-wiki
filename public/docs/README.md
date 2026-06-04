@@ -1,6 +1,6 @@
 # Welcome to the Better Skin Wiki!
 
-**Better Skin** allows you to use custom 3D geometry, HD skins, and custom capes in Minecraft Java Edition.
+**Better Skin** is a powerful skin management mod that brings Bedrock skin packs, custom geometry, HD textures, cape management, and advanced customization tools to Minecraft Java Edition.
 
 ## How to Use the Mod In-Game
 Using the mod is extremely simple. You don't need to type any commands!
@@ -9,7 +9,6 @@ Using the mod is extremely simple. You don't need to type any commands!
 - You can access the Better Skin menu from **two places:**
   - **Main Menu:** Right after launching Minecraft, look for the **Skin Hanger Icon** on the Main Menu screen.
   - **In-Game:** Press `ESC` to open the Pause Menu, and click the **Skin Hanger Icon** there.
-- The icon is located next to the Accessibility/Language buttons.
 
 ### Wait, why is my Skin List EMPTY? 😱
 - If this is your first time using the mod, your list will be completely empty! 
